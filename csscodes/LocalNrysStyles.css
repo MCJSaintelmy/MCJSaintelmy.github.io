@@ -1,0 +1,118 @@
+* { 
+ box-sizing: border-box;
+ border: 0px solid yellow;
+
+}
+
+body {
+  text-align: center;
+  background-color: #ffecb3;
+  marginn: 0 auto;
+}
+
+.top {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../cssimages/cactus.jpg"); 
+}
+
+.top div {
+  font-size: 35px;
+  margin: 0 auto; 
+  padding-top: 50px;  
+}
+
+.top div a {
+  color: #8cc6d9; 
+  text-decoration: underline overline #f56b3d; 
+}
+
+.whylocal,.mainhead,.mainbod,.theend {
+  background-color: white;
+  width:50%;
+  margin: 0 auto;
+  background-color: #b3e6cc;
+  padding-bottom: 5px;
+}
+
+.mainhead {
+  background-image: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3Jhc3N8ZW58MHx8MHx8&w=1000&q=80");
+  background-position: center; 
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px solid black;
+}
+ .mainhead h2 {
+  color: #ffff99;
+  font-size: 40px;
+  padding-top: 0px;
+  border: 0px solid blue;
+}
+
+.mainhead div ol {
+  margin: 0 auto;
+  padding-top: 0px;
+  width: 40%;
+  font-size: 20px; 
+  font-weight: bold; 
+  border: 0px solid blue;  
+}
+
+.mainhead div a {
+  padding: 1%;
+  color: #ffcc99;
+  width: 100px; 
+  border: 0px solid red; 
+}
+
+.mainhead ol {
+  margin: 0 auto; 
+  width: 25%;
+  padding-bottom: 20px;
+  padding-top: -20px;
+  border: 0px solid gray;
+}
+
+.whylocal p {
+  font-size: 20px;
+}
+
+
+h3 {
+  font-family: serif, georgia, sans-serif; 
+  font-size: 30px;
+}
+
+p {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.theend div a {
+  display: inline-flex; 
+  width: 15%;
+  height: auto;
+  padding: 1%;
+  border: 0px solid black;
+  margin: 0 auto;
+  border: 0px solid black;
+}
+
+.theend ul {
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.theend {
+  padding: 0px;
+  margin-top: 40px; 
+  width: 95%;
+  height: auto;
+  border: 2px solid black;
+}

@@ -1,0 +1,122 @@
+
+* {
+  border: 0px solid black;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: seagreen; 
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.heading {  
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px; 
+  font-size: 15px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #c6ecc6;
+  background-image: url("../cssimages/planters.jpg"); 
+}
+
+.heading div a { 
+  height: auto; 
+  min-height: auto%; 
+  padding: 2px;
+  color: white;
+  font-size: 3pc; 
+}
+
+.heading div h1 {
+  padding: 2%;
+  margin: 0 auto;
+  width: 100%;
+}
+ 
+
+.first1, .second2, .third3 {
+  background-color: white;
+  width: 55%;
+  Margin: 0 auto;
+  padding: 10%;
+  height: auto;
+
+}
+
+td:hover {background-color: red;}
+
+th,td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  height: 50px;
+  background-color: #aaaa55;
+}
+
+.table1 {
+  margin: 0 auto;
+  width: 100%; 
+  height: auto;
+}
+
+.table11 {
+  border: 5px double red;
+  padding: 10px;
+  overflow: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.table1 tr:nth-child(even) { background-color: silver;}
+
+div figoption {
+  font-family: fangsong;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.table2 {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table2 tr:nth-child(even) { background-color: silver;}
+
+.table22 {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;    
+  padding: 10px;
+  border: 5px double green;  
+}
+
+.second2 h4 {
+  font-style: oblique;
+  font-size: 25px;  
+}
+
+.table3 {
+  width: 100%;
+  margin: 0 auto;    
+}
+
+.table33 {
+   border: 5px double blue;
+   padding: 15px;
+   width: 100%;
+   margin: 0 auto; 
+   overflow: auto;
+}
+
+.third3 h5 {
+  font-size: 25px;
+  color: #00cccc;
+}
