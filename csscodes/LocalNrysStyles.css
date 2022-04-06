@@ -11,7 +11,7 @@ body {
 }
 
 .top {
-  width: 80%;
+  width: 90%;
   height: 200px;
   margin: 0 auto;  
   background-position: center;
@@ -27,13 +27,13 @@ body {
 }
 
 .top div a {
-  color: #8cc6d9; 
+  color: #FFFF00; 
   text-decoration: underline overline #f56b3d; 
 }
 
 .whylocal,.mainhead,.mainbod,.theend {
   background-color: white;
-  width:50%;
+  width:75%;
   margin: 0 auto;
   background-color: #b3e6cc;
   padding-bottom: 5px;
@@ -65,7 +65,7 @@ body {
 
 .mainhead div a {
   padding: 1%;
-  color: #ffcc99;
+  color: #40E0D0;
   width: 100px; 
   border: 0px solid red; 
 }
