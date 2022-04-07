@@ -12,7 +12,7 @@ body {
 
 .top {
   width: 90%;
-  height: 200px;
+  height: auto;
   margin: 0 auto;  
   background-position: center;
   background-repeat: no-repeat;
@@ -21,14 +21,16 @@ body {
 }
 
 .top div {
-  font-size: 35px;
+  font-size: 45px;
   margin: 0 auto; 
-  padding-top: 50px;  
+  padding-top: 40px; 
+  padding-bottom: 15px; 
 }
 
 .top div a {
-  color: #0066ff; 
-  text-decoration: underline overline #f56b3d; 
+  color: #ffffff; 
+  text-decoration: underline overline #ffff00; 
+  
 }
 
 .whylocal,.mainhead,.mainbod,.theend {
