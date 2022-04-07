@@ -27,7 +27,7 @@ body {
 }
 
 .top div a {
-  color: #FFFF00; 
+  color: #0066ff; 
   text-decoration: underline overline #f56b3d; 
 }
 
@@ -65,7 +65,7 @@ body {
 
 .mainhead div a {
   padding: 1%;
-  color: #40E0D0;
+  color: #ffcc00;
   width: 100px; 
   border: 0px solid red; 
 }
@@ -78,8 +78,20 @@ body {
   border: 0px solid gray;
 }
 
+.easymade h2 {
+  padding-top: 25px;
+}
+
 .whylocal p {
   font-size: 20px;
+}
+
+.whylocal div h1 {
+  padding-top: 25px;
+}
+
+.mainbod #list1 h3 {
+  padding-top: 25px;
 }
 
 
