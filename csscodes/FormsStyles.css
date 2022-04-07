@@ -6,34 +6,34 @@
 .header {
   font-size: 2.5rem;
   text-align: center;
-  width: 80%;
+  width: auto;
   height: auto;
   margin: 0 auto;
   padding-top: 20px; 
   padding-bottom: 20px; 
   background-position: center;
-  background-repeat: no-repeat;
+  bacfground-repeat: no-repeat;
   background-size: cover; 
   background-image: url("https://plantsforallseasons.com/wp-content/uploads/2019/02/apricots-824626_1920.jpg"); 
 }
 
-body {
-  width: 50%;
+body {  
   margin: 0 auto;
+  padding-top: 10px;
   background-color: #f2b95a;
-  font-family: serif; 
 }
 
  .login,.planttype,.shipto {
   background-color: #b1fad0; 
-  color: ;
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
   padding: 5px 5px 5px 15px;  
 }
 
 .count,.shipping,.freetext {
   background-color: #9dfaa0;
-  width: 100%; 
+  margin: 0 auto;
+  width: 90%; 
   padding: 5px 5px 5px 15px; 
 }
 
