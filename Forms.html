@@ -1,138 +1,136 @@
 <!DOCTYPE html>
   
- <html> 
+ <html lang="en"> 
 
-   <head>
-     <title>Let us get to know you!</title>
-       <link href="csscodes/FormsStyles.css" rel="stylesheet"> 
-   </head>
+     <head>
+         <title>Let us get to know you!</title>
+         <link href="csscodes/FormsStyles.css" rel="stylesheet"/> 
+	   	 <meta charset="utf-8"/>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	 </head>
          
- <body>
-
-     <div class="header">  
-         <a href="./Index.html">Home</a>
-         <a href="./LocalNrys.html">Resources</a>
-         <a href="./Table.html">My Table</a>
-         <a href="./Forms.html">My Form</a>
-         <a href="./Contactme.html">Contact</a> 
-     </div>
-     <hr>
+	 <body>
+		 
+		 <main>
+			 <div class="header">  
+				 <a href="./Index.html">Home</a>
+				 <a href="./LocalNrys.html">Resources</a>
+				 <a href="./Table.html">My Table</a>
+				 <a href="./Forms.html">My Form</a>
+				 <a href="./Contactme.html">Contact</a> 
+			 </div>
+			 <hr>
      
-     <form action="./FormData.docx" method="post">
+			 <form action="mailto:mike.Saintelmy@gmail.com" method="post">
 
-       <section class="login">
-         <h1>Lets order you some TREES!</h1>
-         <p>We want to get to know you better! Please log in to receive plant purchase coupons, new blog post, and garden tips.</p>
+				 <section class="login">
+					 <h1>Lets order you some TREES!</h1>
+					 <p>We want to get to know you better! Please log in to receive plant purchase coupons, new blog post, and garden tips.</p>
          
-         <input type="text" name="user_name" value="FName" id="username">
-           <label for="Fname">FirstName</label> <br>
+					 <input type="text" name="user_name" value="FName" id="username"/>
+					     <label for="Fname">FirstName</label> <br>
 
-         <input type="text" name="user-pw" id="name required "value="LName" >
-           <label for="Lname"> LastName</label>         
-       </section> 
-        <br> <hr>
+					 <input type="text" name="user-pw" id="name required "value="LName"/>
+						 <label for="Lname"> LastName</label>         
+				 </section> 
+				 <br> <hr>
 
-       <section class="count"> 
-         <h3>Quantity of plants.</h3>  
+				 <section class="count"> 
+					 <h3>Quantity of plants.</h3>  
      
-           <label for="tree-count"> Number of Plants?</label> 
-             <input type="number" name="tree_cnt" id="tree-count" step="2" min="1" max="74123">
-         <br>
-         <br>
-           <label for="plantcount">Plant Amount</label>   
-            <input type="range" value="6" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
-             <output>6</output>
-                  
-       </section>
-        <br><hr>
+					 <label for="tree-count"> Number of Plants?</label> 
+					     <input type="number" name="tree_cnt" id="tree-count" step="2" min="1" max="74123"/>
+					 <br>
+					 <br>
+					 <label for="plantcount">Plant Amount</label>   
+					     <input type="range" value="6" min="1" max="100" oninput="this.nextElementSibling.value = this.value"/>
+					     <output>6</output>
+				 </section>
+				 <br><hr>
 
        
-       <section class="planttype"> 
-          <h3>Choosing your plant type.</h3>
+				 <section class="planttype"> 
+					 <h3>Choosing your plant type.</h3>
           
-            <label for="fruiting tree"> Fruiting Tree</label>
-              <input type="checkbox" name="check_typ" id="fruiting tree" value="fruiting tree">
-          <br>
-           <label for="shade tree"> Shade Trees</label>
-             <input type="checkbox" name="plant_typ" id="shade tree" value="shade trees">
-          <br>
-            <label for="perennials"> Perennials</label>
-             <input type="checkbox" name="plant_typ" id="perennials" value="Perennials">
-          <br>
-           <label for="herb"> Herbs</label>
-            <input type="checkbox" name="plant_typ" id="herb" value="Herbs">
-          <br>
-            <label for="fern"> Ferns</label>
-              <input type="checkbox" name="plant_typ" id="fern" value="Ferns">
-       </section>
-       <br><hr>
+					 <label for="fruiting tree"> Fruiting Tree</label>
+						 <input type="checkbox" name="check_typ" id="fruiting tree" value="fruiting tree">
+					 <br>
+					 <label for="shade tree"> Shade Trees</label>
+						 <input type="checkbox" name="plant_typ" id="shade tree" value="shade trees">
+					 <br/>
+					 <label for="perennials"> Perennials</label>
+						 <input type="checkbox" name="plant_typ" id="perennials" value="Perennials">
+					 <br/>
+					 <label for="herb"> Herbs</label>
+						 <input type="checkbox" name="plant_typ" id="herb" value="Herbs">
+					 <br/>
+					 <label for="fern"> Ferns</label>
+					 <input type="checkbox" name="plant_typ" id="fern" value="Ferns">
+				 </section>
+				 <br/><hr/>
 
-       <section class="shipping">
-         <h3>Apply for FREE shipping!</h3>
-          <br>          
-           <label for="shipping"> Yes</label> 
-             <input type="radio" name="shipp_ing" id="shipping" value="Yes">
-            <br>
-             <label for="shipping"> No</label>
-               <input type="radio" name="shipp_ing" id="shipping" value="No">
-            <br>
-             <label for="shipping"> Remind me later</label>
-               <input type="radio" name="shipp_ing" id="shipping" value="Maybe later">
-       </section>
-       </br><hr>
+				 <section class="shipping">
+					 <h3>Apply for FREE shipping!</h3>
+					 <br/>          
+					 <label for="shipping"> Yes</label> 
+						 <input type="radio" name="shipp_ing" id="shipping" value="Yes">
+					 <br/>
+					 <label for="shipping"> No</label>
+						 <input type="radio" name="shipp_ing" id="shipping" value="No">
+					 <br/>
+					 <label for="shipping"> Remind me later</label>
+						 <input type="radio" name="shipp_ing" id="shipping" value="Maybe later">
+				 </section>
+				 <br/><hr/>
 
-      <section class="shipto">
-         <h3>US States we ship to?</h3>
-         <input type="text" name="STates" list="states" id="state_Nms">
-           <label for="state_Nms">Please select a state</label>
-             <datalist id="states">
-               <option>Florida</option>
-               <option>NewYork</option>
-               <option>Mississippi</option>
-               <option>Organ</option>
-               <option>New Hampshire</option>
-               <option>Wesconsin</option>
-               <option>Illinois</option>
-               <option>Delaware</option>
-               <option>New Jersey</option>
-               <option>New England</option>
-               <option>Georgia</option>
-             </datalist>
-         <br>
-         <h4>US City</h4>
-          <input type="text" name="City_Nms" list="cities" id="CItY">
-            <label for="CItY">Select a City</label>
-              <datalist id="cities">
-                <option>Houston</option>
-                <option>Los angeles</option>
-                <option>Chicago</option>
-                <option>Tampa</option>
-                <option>Washington</option>
-                <option>Dallas</option>
-              </datalist>
-        </section>
-        <br><hr>
+				 <section class="shipto">
+					 <h3>US States we ship to?</h3>
+					 <input type="text" name="STates" list="states" id="state_Nms">
+					     <label for="state_Nms">Please select a state</label>
+					 <datalist id="states">
+						 <option>Florida</option>
+						 <option>NewYork</option>
+						 <option>Mississippi</option>
+						 <option>Organ</option>
+						 <option>New Hampshire</option>
+						 <option>Wesconsin</option>
+						 <option>Illinois</option>
+						 <option>Delaware</option>
+						 <option>New Jersey</option>
+						 <option>New England</option>
+						 <option>Georgia</option>
+					 </datalist>
+					 <br/>
+					 <h4>US City</h4>
+					 <input type="text" name="City_Nms" list="cities" id="CItY">
+						 <label for="CItY">Select a City</label>
+					 <datalist id="cities">
+						 <option>Houston</option>
+						 <option>Los angeles</option>
+						 <option>Chicago</option>
+						 <option>Tampa</option>
+						 <option>Washington</option>
+						 <option>Dallas</option>
+					 </datalist>
+				 </section>
+				 <br><hr>
 
-        <section class="freetext">
-          <h5>Please add additional details about your order here.</h5>
-            <label for="info">Order details</label>
-              <textarea id="info" name="Addt_info" row="10" col="80" minlength="10" maxlengh="300">
-                </textarea>
-        </section>
-        <br><hr>
+				 <section class="freetext">
+					 <h5>Please add additional details about your order here.</h5>
+				     <label for="info">Order details</label>
+						 <textarea id="info" name="Addt_info" row="10" col="80" minlength="10" maxlengh="300">
+						 </textarea>
+				 </section>
+				 <br><hr>
 
-        <input type="submit" onclick="myFunction()" value="Submit form">
-       
-      
-     </form>
-
-<script>
-function myFunction() {
-  document.getElementById("myForm").submit();
-}
-</script>
-
-   </body>
+				 <input type="submit" onclick="myFunction()" value="Submit form">
+			 </form>
+		 </main>
+		 <script>
+			function myFunction() {
+			 document.getElementById("myForm").submit();}
+		 </script>
+	 </body>
   </html>
 
 
