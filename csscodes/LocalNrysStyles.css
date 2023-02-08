@@ -1,13 +1,13 @@
 * { 
  box-sizing: border-box;
- border: 0px solid yellow;
+ border: 0px solid rgb(29, 29, 26);
 
 }
 
 body {
   text-align: center;
   background-color: #ffecb3;
-  marginn: 0 auto;
+  margin: 0 auto;
 }
 
 .top {
@@ -18,12 +18,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url("../cssimages/cactus.jpg"); 
+  padding: 5px;
 }
 
 .top div {
   font-size: 45px;
   margin: 0 auto; 
-  padding-top: 40px; 
+  padding-top: 20px; 
   padding-bottom: 15px; 
 }
 
@@ -34,11 +35,10 @@ body {
 }
 
 .whylocal,.mainhead,.mainbod,.theend {
-  background-color: white;
   width:75%;
-  margin: 0 auto;
+  margin: auto;
   background-color: #b3e6cc;
-  padding-bottom: 5px;
+  padding: 0 10px 5px 10px;
 }
 
 .mainhead {
@@ -109,24 +109,18 @@ p {
 
 .theend div a {
   display: inline-flex; 
-  width: 15%;
+  width: fit-content;
   height: auto;
-  padding: 1%;
+  padding: 8px;
   border: 0px solid black;
-  margin: 0 auto;
-  border: 0px solid black;
+  margin: auto;
+  justify-content: center;
 }
 
-.theend ul {
-  padding: 10px;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-}
 .theend {
-  padding: 0px;
-  margin-top: 40px; 
-  width: 95%;
-  height: auto;
+  padding: 1px;
+  margin: auto; 
+  width: 55%;
+  height: fit-content;
   border: 2px solid black;
 }
