@@ -6,14 +6,14 @@
 
 body {
   text-align: center;
-  background-color: #ffecb3;
+  background-color: #a7996e;
   margin: 0 auto;
 }
 
 .top {
   width: 90%;
   height: auto;
-  margin: 0 auto;  
+  margin: auto;  
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -29,8 +29,9 @@ body {
 }
 
 .top div a {
-  color: #ffffff; 
-  text-decoration: underline overline #ffff00; 
+  color: springgreen; 
+  text-decoration: underline overline #ffff00ba; 
+  padding: 5px;
   
 }
 
@@ -52,36 +53,28 @@ body {
  .mainhead h2 {
   color: #ffff99;
   font-size: 40px;
-  padding-top: 0px;
-  border: 0px solid blue;
+  padding: 2px 5px ;
+  border: 2px solid rgba(138, 50, 21, 0.486);
+  margin: auto;
+  width: fit-content;
+  justify-content: center;
 }
 
 .mainhead div ol {
-  margin: 0 auto;
-  padding-top: 0px;
-  width: 40%;
+  margin: auto;
+  padding: 0px 5px 0 20px;
+  width: fit-content;
   font-size: 20px; 
   font-weight: bold; 
-  border: 0px solid blue;  
+  border: 0px solid rgb(230, 62, 221);  
 }
 
 .mainhead div a {
-  padding: 1%;
   color: #ffcc00;
-  width: 100px; 
+  width: fit-content; 
   border: 0px solid red; 
-}
-
-.mainhead ol {
-  margin: 0 auto; 
-  width: 25%;
-  padding-bottom: 20px;
-  padding-top: -20px;
-  border: 0px solid gray;
-}
-
-.easymade h2 {
-  padding-top: 25px;
+  display: inline-flex;
+  padding: 15px;
 }
 
 .whylocal p {
@@ -108,19 +101,22 @@ p {
 }
 
 .theend div a {
-  display: inline-flex; 
+  display: inline; 
   width: fit-content;
   height: auto;
   padding: 8px;
   border: 0px solid black;
   margin: auto;
   justify-content: center;
+  text-align: center;
+  color: black;
 }
 
 .theend {
-  padding: 1px;
+  padding: 5px;
   margin: auto; 
   width: 55%;
   height: fit-content;
   border: 2px solid black;
+ justify-content:flex-start;
 }
