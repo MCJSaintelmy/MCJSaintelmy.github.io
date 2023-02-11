@@ -16,7 +16,7 @@ body {
   width: 80%;
   height: 10em;
   margin: auto;
-  padding-top: 20px; 
+  padding-top: 9px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +35,11 @@ body {
 }  
 
 .heading div h1 {
-  padding: 2%;
+  padding: 1%;
   margin: 0 auto;
   width: fit-content;
   font-size: .1vmin;
-  font-size: 3vmax;
+  font-size: 2.5vmax;
   height: auto;
 }
  

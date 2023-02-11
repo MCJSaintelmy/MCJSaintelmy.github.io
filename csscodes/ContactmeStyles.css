@@ -7,15 +7,22 @@ body {
 
 .top {
   text-align: center; 
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid cadetblue;
+  border-radius: 80px;
+  background-color: #756075;
+  width: fit-content;
 }
 
 .top a {
-  font-weight: 50%; 
+  font-weight: bold; 
   letter-spacing: 5px; 
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
+  text-decoration: underline rgb(221, 208, 27);
+  color: springgreen;
+  width: fit-content;
 }
 
 .intro {
@@ -36,7 +43,7 @@ body {
   color: #660066;
   font-weight: 900;
   background-color: rgb(255, 255, 230, 0.5);
-  dissplay: inline-flex;
+  display: inline-flex;
 }
 
 

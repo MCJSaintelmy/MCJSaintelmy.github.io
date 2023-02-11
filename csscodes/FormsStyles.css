@@ -1,6 +1,6 @@
 * {
-  border-sizing  
-  display: ;
+  bordger: 5px solid black;  
+  
 }
 
 .header {
@@ -8,19 +8,29 @@
   text-align: center;
   width: auto;
   height: auto;
-  margin: 0 auto;
-  padding-top: 20px; 
-  padding-bottom: 20px; 
+  margin: 0 auto; 
+  padding: 15px 5px 20px 5px;
   background-position: center;
-  bacfground-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover; 
   background-image: url("https://plantsforallseasons.com/wp-content/uploads/2019/02/apricots-824626_1920.jpg"); 
 }
+
+.header a {
+  color: springgreen;
+}
+
 
 body {  
   margin: 0 auto;
   padding-top: 10px;
   background-color: #f2b95a;
+}
+
+main {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
 }
 
  .login,.planttype,.shipto {
@@ -43,7 +53,7 @@ h3 {
 }
 
 h5 {
-  font-family: ; 
+  font-family: 'Times New Roman', Times, serif; 
   font-size: 20px;
 }
 
