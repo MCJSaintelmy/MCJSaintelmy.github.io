@@ -26,11 +26,10 @@ body {
 
 .heading div a { 
   height: auto; 
-  padding: 1px;
-  color: springgreen;
-  font-size: 2vmin; 
-  font-size: 3.5vmax;
-  width: fit-content;
+  padding: 2px;
+  color: springgreen; 
+  font-size: 6vmin;
+  width: auto;
   display: inline-flex;
 }  
 
@@ -38,8 +37,7 @@ body {
   padding: 1%;
   margin: 0 auto;
   width: fit-content;
-  font-size: .1vmin;
-  font-size: 2.5vmax;
+  font-size: 5vmin;
   height: auto;
 }
  

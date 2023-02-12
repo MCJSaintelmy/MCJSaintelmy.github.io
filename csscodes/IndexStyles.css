@@ -7,8 +7,6 @@
 .mainbackground {
   background: linear-gradient(180deg, #3f87a6, #ebf8e1, #f69d3c); 
   text-align: center;  
-  
-   
 }
 
 .topleft {
@@ -41,13 +39,14 @@
   background-size: cover;
   background-position: center; 
   min-height: 20%; 
-  width: 70%;
+  width: 80vw;
+  height: auto;
   padding-bottom: 10px;
   margin: 0 auto; 
 }
 
 .topbanner nav {
-  width: 80%;  
+  width: auto;  
   text-align: center;
   border: 4px groove #ffcc00;   
   border-radius: 30px;
@@ -58,9 +57,11 @@
 
 .banner-text a {
   color: springgreen; 
-  font-size: 40px;    
-  padding: 10px; 
-  display: inline-flex;  
+  font-size: 3vw;    
+  padding: 5px; 
+  display: inline-flex; 
+  width: fit-content; 
+  height: auto;
 }             
  
 .wordof {
@@ -194,26 +195,30 @@ h4 {
 .footer {
   background-color: rgba(96, 112, 62, 0.473);
   margin: auto;
-  width: fit-content;
+  width: auto;
   height: 20%;
   font-size: small;
   padding: 5px;
   
 }
 .footrepo {
-  width:fit-content;
+  width: fit-content;
   margin: auto;
- 
   display: inline-block;
   height: auto;
 }
-.footrepo a {
+#footrepo {
   margin: auto;
-  width: fit-content;
+  width: auto;
   height: auto;
-  padding: auto;  
+  padding: 10px;  
 }
 
+#footrepo a {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
 
 /*<!--
 #120a8f- ultramarine
